@@ -6,7 +6,8 @@ import logging
 
 logging.basicConfig(filename="scraper.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-BASE_URL = "http://books.toscrape.com/"
+BASE_URL = "http://books.toscrape.com/" # This is a test update for PR
+
 CATALOGUE_URL = BASE_URL + "catalogue/"
 
 def get_soup(url):
