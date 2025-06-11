@@ -12,5 +12,6 @@ Scrape all books from http://books.toscrape.com
 
 ## 🛠 Setup
 
+
 ```bash
 pip install -r requirements.txt
