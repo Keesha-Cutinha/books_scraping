@@ -1,0 +1,2 @@
+2025-06-10 22:35:41,978 - ERROR - HTTP error: HTTPConnectionPool(host='books.toscrape.com', port=80): Max retries exceeded with url: /catalogue/page-33.html (Caused by ConnectTimeoutError(<urllib3.connection.HTTPConnection object at 0x000001F1838F14D0>, 'Connection to books.toscrape.com timed out. (connect timeout=10)')) at http://books.toscrape.com/catalogue/page-33.html
+2025-06-10 22:40:58,706 - ERROR - HTTP error: 404 Client Error: Not Found for url: http://books.toscrape.com/catalogue/page-51.html at http://books.toscrape.com/catalogue/page-51.html
