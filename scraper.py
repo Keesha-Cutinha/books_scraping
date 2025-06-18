@@ -6,12 +6,13 @@ import logging
 
 logging.basicConfig(filename="scraper.log", level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-BASE_URL = "http://books.toscrape.com/"
-CATALOGUE_URL = BASE_URL + "catalogue/"
+BASE_URL = "http://books.toscrape.com/" # This is a test update for PR
+
+CATALOGUE_URL = BASE_URL + "catalogue/"# testing
 
 def get_soup(url):
     try:
-        response = requests.get(url, timeout=10)
+        response = requests.get(url, timeout=10)# tester
         response.raise_for_status()
         return BeautifulSoup(response.text, "html.parser")
     except requests.exceptions.RequestException as e:
@@ -64,7 +65,8 @@ def scrape_all_books():
 def save_to_csv(data, filename="books_data.csv"):
     df = pd.DataFrame(data)
     df.to_csv(filename, index=False)
-    print(f"✅ Saved {len(data)} books to {filename}")
+    print(f"✅ Saved {len(data)} books to {filename}")#test
+
 
 if __name__ == "__main__":
     books = scrape_all_books()

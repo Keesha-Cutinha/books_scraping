@@ -11,7 +11,7 @@ class TestBookScraper(unittest.TestCase):
 
     # ✅ Test Case 2: Verify CSV File Extraction
     def test_csv_not_empty(self):
-        df = pd.read_csv("books_data.csv")
+        df = pd.read_csv("books_data.csv")#this is for PR trial
         self.assertGreater(len(df), 0, "CSV file is empty.")
 
     # ✅ Test Case 3: Validate File Type and Format
