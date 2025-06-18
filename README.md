@@ -66,14 +66,7 @@ Ensuring clean CSV output
 
 ## 📁 Project Structure
 
-book_scraper_project/
-├── scraper.py
-├── books_data.csv
-├── requirements.txt
-├── README.md
-├── scraper.log
-└── tests/
-    └── test_scraper.py
+<pre> ## 📁 Project Structure ``` book_scraper_project/ ├── scraper.py ├── books_data.csv ├── requirements.txt ├── README.md ├── scraper.log └── tests/ └── test_scraper.py ``` </pre>
 
  ---
 
