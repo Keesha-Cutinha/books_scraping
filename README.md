@@ -33,12 +33,13 @@ Scrape all books listed across multiple pages and collect:
 
 Run the following command to install required packages:
 
-```bash
+
 pip install -r requirements.txt
 
 ---
 
-##▶️ Run Scraper
+## ▶️ Run Scraper
+
 To run the scraper, execute:
 
 python scraper.py
@@ -46,7 +47,7 @@ The extracted data will be saved as books_data.csv in the project directory.
 
 ---
 
-##🧪 Testing
+## 🧪 Testing
 To run unit tests, use:
 
 python -m unittest tests/test_main.py
@@ -63,7 +64,8 @@ Ensuring clean CSV output
 ---
 
 
-##📁 Project Structure
+## 📁 Project Structure
+
 book_scraper_project/
 ├── scraper.py
 ├── books_data.csv
@@ -75,7 +77,8 @@ book_scraper_project/
 
  ---
 
-##👩‍💻 Author
+## 👩‍💻 Author
+
 Keesha Cutinha
 Bachelor’s in Artificial Intelligence & Data Science
 NMAM Institute of Technology
