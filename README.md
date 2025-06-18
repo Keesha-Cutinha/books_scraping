@@ -45,39 +45,28 @@ pip package manager
 🧪 Setup Instructions
 Clone the repository:
 
-bash
-Copy
-Edit
+
 git clone https://github.com/yourusername/books_scraping.git
 cd books_scraping
 Create and activate a virtual environment (Windows):
 
-nginx
-Copy
-Edit
+
 python -m venv venv
 venv\Scripts\activate
 Install dependencies:
 
-nginx
-Copy
-Edit
+
 pip install -r requirements.txt
 ▶️ Usage
 Run the scraper using:
 
-nginx
-Copy
-Edit
+
 python scraper.py
 The extracted data will be saved as books_data.csv in the project directory.
 
 🧪 Testing
 To run the unit tests:
 
-bash
-Copy
-Edit
 pytest tests/test_file.py
 Test cases include:
 
@@ -90,9 +79,7 @@ Test cases include:
 ✅ Ensuring clean CSV output
 
 📂 Project Structure
-bash
-Copy
-Edit
+
 books_scraping/
 ├── scraper.py            # Main scraping logic  
 ├── books_data.csv        # Output data (generated)  
