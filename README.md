@@ -86,7 +86,7 @@ test_scraper.py
 
  ---
 
-## 👩‍💻 Author
+### 👩‍💻 Author
 
 Keesha Cutinha
 Bachelor’s in Artificial Intelligence & Data Science
