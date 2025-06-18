@@ -65,7 +65,8 @@ def scrape_all_books():
 def save_to_csv(data, filename="books_data.csv"):
     df = pd.DataFrame(data)
     df.to_csv(filename, index=False)
-    print(f"✅ Saved {len(data)} books to {filename}")
+    print(f"✅ Saved {len(data)} books to {filename}")#test
+
 
 if __name__ == "__main__":
     books = scrape_all_books()
