@@ -1,59 +1,68 @@
-📘 Book Scraper Project
-A Python-based web scraper that extracts book details from Books to Scrape for analysis and reporting.
+# 📘 Book Scraper Project
 
-🎯 Goal
+A Python-based web scraper that extracts book details from [Books to Scrape](http://books.toscrape.com) for analysis and reporting.
+
+---
+
+## 🎯 Goal
+
 Scrape all books listed across multiple pages and collect:
 
-📗 Title
+- 📗 **Title**
+- 💷 **Price**
+- ⭐ **Rating** (1 to 5)
+- 📦 **Availability**
+- 🔗 **Product URL**
 
-💷 Price
+---
 
-⭐ Rating (1 to 5)
+## 🔍 Data Extracted
 
-📦 Availability
+- `title` – Book title  
+- `price` – Price in GBP  
+- `rating` – Star rating (converted to 1–5)  
+- `availability` – In stock or not  
+- `url` – Link to book's detail page  
 
-🔗 Product URL
+---
 
-🔍 Data Extracted
-title – Book title
+## 🛠 Setup
 
-price – Price in GBP
+### 📦 Install Requirements
 
-rating – Star rating (converted to 1–5)
-
-availability – In stock or not
-
-url – Link to book's detail page
-
-🛠 Setup
-📦 Install Requirements
 Run the following command to install required packages:
 
+```bash
 pip install -r requirements.txt
 
-▶️ Run Scraper
+----
+
+##▶️ Run Scraper
 To run the scraper, execute:
 
 python scraper.py
-
 The extracted data will be saved as books_data.csv in the project directory.
 
-🧪 Testing
+----
+
+##🧪 Testing
 To run unit tests, use:
 
-pytest tests/test_scraper.py
+python -m unittest tests/test_main.py
 
-Test coverage includes:
+✅ Test coverage includes:
+Verifying page scraping
 
-✅ Verifying page scraping
+Handling pagination
 
-✅ Handling pagination
+Validating data structure
 
-✅ Validating data structure
+Ensuring clean CSV output
 
-✅ Ensuring clean CSV output
+----
 
-📁 Project Structure
+
+##📁 Project Structure
 book_scraper_project/
 ├── scraper.py
 ├── books_data.csv
@@ -61,10 +70,11 @@ book_scraper_project/
 ├── README.md
 ├── scraper.log
 └── tests/
-  └── test_scraper.py
+    └── test_scraper.py
 
-👩‍💻 Author
+ -----   
+
+##👩‍💻 Author
 Keesha Cutinha
 Bachelor’s in Artificial Intelligence & Data Science
 NMAM Institute of Technology
-
