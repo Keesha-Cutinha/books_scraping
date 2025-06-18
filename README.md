@@ -1,74 +1,49 @@
-📚 Book Scraper Project
-A Python-based scraper that extracts book details from Books to Scrape for analysis and reporting.
+📘 Book Scraper Project
+A Python-based web scraper that extracts book details from Books to Scrape for analysis and reporting.
 
 🎯 Goal
-To scrape all books listed across multiple pages and collect:
+Scrape all books listed across multiple pages and collect:
 
-Title
+📗 Title
 
-Price
+💷 Price
 
-Rating (out of 5)
+⭐ Rating (1 to 5)
 
-Availability
+📦 Availability
 
-Product URL
+🔗 Product URL
 
-🚀 Features
-1. 📡 Data Retrieval
-Iterates through all available pages on the website.
+🔍 Data Extracted
+title – Book title
 
-Fetches data from each book listing.
+price – Price in GBP
 
-Handles broken pages or missing elements gracefully.
+rating – Star rating (converted to 1–5)
 
-2. 🧾 Data Extracted
-title: Book title
+availability – In stock or not
 
-price: Price in GBP
+url – Link to book's detail page
 
-rating: Star rating (converted to numeric 1–5)
-
-availability: Stock status
-
-url: Link to the book's detail page
-
-3. 📦 Output Format
-Data is saved as books_data.csv for easy analysis or ingestion into other tools.
-
-🧰 Installation
-📌 Prerequisites
-Python 3.10 or higher
-
-pip package manager
-
-🧪 Setup Instructions
-Clone the repository:
-
-
-git clone https://github.com/yourusername/books_scraping.git
-cd books_scraping
-Create and activate a virtual environment (Windows):
-
-
-python -m venv venv
-venv\Scripts\activate
-Install dependencies:
-
+🛠 Setup
+📦 Install Requirements
+Run the following command to install required packages:
 
 pip install -r requirements.txt
-▶️ Usage
-Run the scraper using:
 
+▶️ Run Scraper
+To run the scraper, execute:
 
 python scraper.py
+
 The extracted data will be saved as books_data.csv in the project directory.
 
 🧪 Testing
-To run the unit tests:
+To run unit tests, use:
 
-pytest tests/test_file.py
-Test cases include:
+pytest tests/test_scraper.py
+
+Test coverage includes:
 
 ✅ Verifying page scraping
 
@@ -78,22 +53,18 @@ Test cases include:
 
 ✅ Ensuring clean CSV output
 
-📂 Project Structure
-
-books_scraping/
-├── scraper.py            # Main scraping logic  
-├── books_data.csv        # Output data (generated)  
-├── requirements.txt      # Project dependencies  
-├── README.md             # Project documentation  
-├── scraper.log           # Runtime logs  
-├── tests/
-│   └── test_file.py      # Unit tests  
-🤝 Contributions
-Have improvements or ideas?
-Feel free to fork this repo, raise issues, or create pull requests.
+📁 Project Structure
+book_scraper_project/
+├── scraper.py
+├── books_data.csv
+├── requirements.txt
+├── README.md
+├── scraper.log
+└── tests/
+  └── test_scraper.py
 
 👩‍💻 Author
 Keesha Cutinha
-Bachelor's in Artificial Intelligence & Data Science
+Bachelor’s in Artificial Intelligence & Data Science
 NMAM Institute of Technology
 
