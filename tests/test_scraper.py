@@ -6,7 +6,6 @@ feature/book-scraper
 
 main
 
-
 class TestBookScraper(unittest.TestCase):
 
     # ✅ Test Case 1: Verify CSV File Download
