@@ -2,9 +2,7 @@ import unittest
 from unittest.mock import patch
 import pandas as pd
 import os
-feature/book-scraper
 
-main
 
 
 class TestBookScraper(unittest.TestCase):
